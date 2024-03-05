@@ -1,0 +1,91 @@
+*{
+	padding:0;
+	margin:0;
+	
+}
+
+.header {width:100%;height: auto;/* background: red; */}
+
+.logo_and_ad {
+    width: 1040;
+    /* background: yellow; */
+    height: 150px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.logo {
+    width: 25%;
+    overflow: hidden;
+}
+.logo {
+    float: left;
+}
+.ad {
+    float: right;
+}
+
+
+img {
+    max-width: 100%;
+}
+.main_menu {
+    width: 100%;
+    height: auto;
+    background: green;
+    overflow: hidden;
+}
+.main_menu_content {
+    width: 1040px;
+    margin: auto;
+}
+.main_menu_content ul {
+    list-style: none;
+    margin-left: 0;
+}
+.main_menu_content ul li {
+    float: left;
+}
+.main_menu_content ul li a {
+    text-decoration: none;
+    padding: 12px;
+    display: block;
+    color: floralwhite;
+    text-transform: uppercase;
+    font-size: 25px;
+	transition: all 0.5s;
+}
+
+.main_menu_content ul li a:hover {
+    background: red;
+    color: white;
+}
+.footer {
+    /* width: 1040; */
+    /* margin: auto; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -3%;
+}
+.footer_section {
+    width: 1040px;
+    margin: auto;
+}
+.footer_single_part {
+    /* background: red; */
+    width: 30.33%;
+    margin-left: 3%;
+}
+.footer_single_part h3 {
+    border-bottom: 1px solid black;
+    padding: 3px;
+    margin-bottom: 7px;
+}
+.main_content {
+    width: 1040px;
+    background: red;
+    height: auto;
+    margin: auto;
+    margin: 20px auto;
+    overflow: hidden;
+}
